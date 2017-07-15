@@ -45,7 +45,7 @@ The goals of this project are the following:
 
 ### Camera Calibration
 
-The code for this step is contained in `calibrate_camera()` in the [IPython notebook](./lane_finder.py).
+The code for this step is contained in `calibrate_camera()` in the [IPython notebook](./lane_finder.ipynb).
 
 The steps are straightforward: preparing 'object points' - (x, y, z) coordinates of the chessboard corners in the world, and 'image points' - (x, y) pixel positions of each of the corners in the image plane. Using OpenCV `cv2.calibrateCamera()` function the camera calibration and distortion coefficients are calculated.
 
@@ -126,7 +126,7 @@ This is made in `calculate_curvature_radius()` and `calculate_offset()` function
 
 #### 6. Resulted image
 
-The whole process is described in `find_lane_v1()` function in the [notebook](./lane_finder.py). Here are the original and resulted images:
+The whole process is described in `find_lane_v1()` function in the [notebook](./lane_finder.ipynb). Here are the original and resulted images:
 
 ![test3]
 ![test3_lanes]
